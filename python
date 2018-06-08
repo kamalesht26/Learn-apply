@@ -1,0 +1,30 @@
+Python:
+========
+
+
+Editor:
+-------
+1) Text editor (basic,no extra features)eg Atom,sublime text
+2) Full IDE (specific for python,large program,extra functionality) eg pycharm,spyder
+3) Notebook environments (great for learning,see input and output next to each other, no .py format but ipynb, used in data science and ML) eg jupyter notebook
+
+
+Data types 
+-----------
+
+It is used to building block of our code
+
+*int eg 3, 300 
+*float eg 3.3, 33.0
+*str ( both character and number ) eg "kamalesh", 'kam',"200", "any other lang"
+*list (ordered sequence of objects) eg [10,"kam",200.3]
+*dict (unoredered key:valuepair) eg {"name":"frankee"}
+*tup (ordered immutable seq of objects means cannot be changed)
+*set (unordered collection of unique objects) eg {"a","b"}
+*bool (logical value indication True or False)
+
+
+1/2 = 0 to get proper ans follow below steps
+
+either we have to follow 1.0/2 or float(1)/2 or from __future__ import division
+
