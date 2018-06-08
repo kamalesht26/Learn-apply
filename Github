@@ -93,8 +93,37 @@ story-joe-edit-reviewed.txt
 Here master is production and any fix planned should be first should be done to branches dev and test environment before production that is master.
 
 Step 3. Make and commit changes
-
+-------------------------------
 Branch which is a copy of master. Let’s make some edits.
 
 On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. 
 Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
+
+Step 4. Pull request
+--------------------
+Now that you’ve created a commit, it’s time to share your proposed change through a pull request! 
+Where issues encourage discussion with other contributors and collaborators on a project, 
+pull requests help you share your changes, receive feedback on them, and iterate on them until they’re perfect!
+
+This pull request is going to keep the changes you just made on your branch and propose applying them to the master branch.
+
+Respond to a review:
+Your pull request is looking great!
+Let’s add some content to your file by commit changes
+
+Merge your pull request:
+You successfully created a pull request, and it has passed all of the tests. You can now merge your pull request.
+
+LINUX commands:
+--------------
+git --version
+git init --->>> initialize a repo from existing code
+git add -A >>> put all files in staging area
+git reset  >>>> remove from staging area
+git commit -m "Initial Commit"
+git commit
+git status
+git log
+git clone <URL> <where u want to clone>
+git pull
+git push
