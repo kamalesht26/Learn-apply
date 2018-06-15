@@ -9,7 +9,7 @@ Editor:
 3) Notebook environments (great for learning,see input and output next to each other, no .py format but ipynb, used in data science and ML) eg jupyter notebook
 
 
-Data types 
+Data types:
 -----------
 
 It is used to building block of our code
@@ -28,3 +28,46 @@ It is used to building block of our code
 
 either we have to follow 1.0/2 or float(1)/2 or from __future__ import division
 
+Numbers:
+-------
+1.) Types of Numbers in Python (int and float)
+2.) Basic Arithmetic 
+3.) Differences between classic division and floor division ( 7/4) ( 7//4 - floor division)
+4.) Object Assignment in Python
+
+
+Variable Assignment:
+--------------------
+
+The names you use when creating these labels need to follow a few rules:
+
+1. Names can not start with a number.
+2. There can be no spaces in the name, use _ instead.
+3. Can't use any of these symbols :'",<>/?|\()!@#$%^&*~-+
+4. It's considered best practice (PEP8) that names are lowercase.
+5. Avoid using the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), 
+   or 'I' (uppercase letter eye) as single character variable names.
+6. Avoid using words that have special meaning in Python like "list" and "str"
+
+
+Assigning Variables: Variable assignment follows name = object, where a single equals sign = is an assignment operator.
+
+Determining variable type with type()
+
+You can check what type of object is assigned to a variable using Python's built-in type() function.
+
+Strings:
+--------
+
+Strings are used in Python to record text information, such as names. 
+Strings in Python are actually a sequence, which basically means Python keeps track of every element in the string asa sequence. 
+For example, Python understands the string "hello' to be a sequence of letters in a specific order.This means we will be able to use
+indexing to grab particular letters (like the first letter, or the last letter).
+
+
+1.) Creating Strings
+2.) Printing Strings
+3.) String Indexing and Slicing
+4.) String Properties
+5.) String Methods
+6.) Print Formattin
